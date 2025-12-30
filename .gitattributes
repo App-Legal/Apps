@@ -6,4 +6,4 @@ package-lock.json linguist-generated=true
 *.min.css linguist-generated=true
 
 # Exclude vendor/third-party code
-/public/vendor/** linguist-vendored
+/public/vendor/** linguist-vendored=true
