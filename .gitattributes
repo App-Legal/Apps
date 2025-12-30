@@ -1,0 +1,9 @@
+# Exclude dependency lock files from GitHub language statistics
+package-lock.json linguist-generated=true
+
+# Exclude other generated files
+*.min.js linguist-generated=true
+*.min.css linguist-generated=true
+
+# Exclude vendor/third-party code
+/public/vendor/** linguist-vendored
